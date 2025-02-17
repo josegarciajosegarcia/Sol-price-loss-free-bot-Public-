@@ -32,33 +32,48 @@ Telegram: [@erikerik116](https://t.me/erikerik116)
 
 Discord: @erikerik116
 
+Twitter: @erikerikerik116
+
 ## 🧑‍💻 **Environment Variables**
 
 Create a .env file and add the following configuration:
 
 PRIVATE_KEY=
+
 RPC_ENDPOINT=
+
 RPC_WEBSOCKET_ENDPOINT=
+
 QUOTE_MINT=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
+
 MAIN_MINT=So11111111111111111111111111111111111111112
+
 COMMITMENT_LEVEL=confirmed
+
 IS_JITO=true
+
 JITO_FEE=0.00001
 
 FETCH_SOL_PRICE_TIME=60000  # Fetch SOL price every 60 seconds
+
 LIMIT_SOL_PRICE=180  # Threshold price for swapping SOL/USDC
+
 MIN_SOL_BALANCE=0.01  # Minimum SOL balance to keep in wallet
 
 
 ## 🧑‍💻 **Setup and Usage**
 
-swap Sol to  : https://solscan.io/tx/2zjrjqA6Jfrqc8FpasmfY4Eedgci36QoXVHCr2dS8MGQ7F4hEN8TQJ37TetYP75cj1u9kh4Eu7NgDvRvqZ425GBW
+LIMIT_SOL_PRICE = 181.5
 
-![grpc-buy-1-block-mint](https://github.com/user-attachments/assets/5ad5c0a9-1931-41fd-a088-630e58866078)
+swap Sol to Usdc : [https://solscan.io/tx/127YoP3VKVqJqRoamMMSMAf7ECisCNm2S19Fa9KZtm1Kuvp14a6jPDuXqd1Wfa8k87T5hkt6eS8m9EDUkiofDoNJ](https://solscan.io/tx/127YoP3VKVqJqRoamMMSMAf7ECisCNm2S19Fa9KZtm1Kuvp14a6jPDuXqd1Wfa8k87T5hkt6eS8m9EDUkiofDoNJ)
 
-Token but : https://solscan.io/tx/2fJctjpCnidkCQqcWupj9rcyVYRYVNodNWV6982RDmXyXmiHVozvgPrBwqWwvhQiEvFJ8BsaUXN1HPF2GW856VXb
+![image (10)](https://github.com/user-attachments/assets/09c83343-c627-4ee2-b45d-724bbd268a50)
 
-![grpc-buy-1-block-buy](https://github.com/user-attachments/assets/1bc5edcb-716d-4e5f-9fef-0ff10bc8cf16)
+
+swap Usdc to Sol : [https://solscan.io/tx/52fd1F5mF5BtJPdUmeXxGofLExeawpMpAzfSRZmt9ynBHgnfUUL3tv1DDA9cKgi4ETyNvmMf5Sxz398mkjEP6Qa9](https://solscan.io/tx/52fd1F5mF5BtJPdUmeXxGofLExeawpMpAzfSRZmt9ynBHgnfUUL3tv1DDA9cKgi4ETyNvmMf5Sxz398mkjEP6Qa9)
+
+
+![image (9)](https://github.com/user-attachments/assets/7d67253f-68d2-48c1-a8dd-fc76052ae87d)
 
 
 ## 🚀 **Getting Started**
