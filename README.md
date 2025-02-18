@@ -2,8 +2,6 @@
 
 The SOL Price Loss-Free Bot is a useful tool that helps protect against losses caused by SOL price fluctuations. The bot automatically swaps all SOL in your wallet to USDC when the SOL price drops below a set limit. Conversely, when the SOL price rises above the limit, it swaps all USDC back to SOL. This ensures that you avoid losses during volatile market conditions.
 
-Welcome to the **PumpFun Sniper Bot v5.2**! This bot watches for new `pump.fun` token mints on the Solana blockchain in real-time by using Geyser(Yellowstone), making it the perfect tool to monitor token launches. 🌟
-
 ### 🎯 **Key Features**
 
 - 🛰️ **Automatic SOL to USDC Swap**: 
@@ -78,14 +76,14 @@ swap Usdc to Sol : [https://solscan.io/tx/52fd1F5mF5BtJPdUmeXxGofLExeawpMpAzfSRZ
 
 ## 🚀 **Getting Started**
 
-Follow these steps to get your **PumpFun Sniper Bot v5.2** up and running!
+Follow these steps to get your **Sol-Price-Loss-Free-Bot** up and running!
 
 ### Installation
 
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/yourusername/sol-price-loss-free-bot.git
+    git clone https://github.com/eriksol116/sol-price-loss-free-bot.git
     ```
 
 2. **Install Dependencies**:
