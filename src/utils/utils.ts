@@ -22,33 +22,6 @@ export const retrieveEnvVariable = (variableName: string, logger: Logger) => {
   return variable;
 };
 
-export async function getTokenBalance() {
-  try {
-    const solanaConnection = new Connection(RPC_ENDPOINT, "processed");
-    const keypair = Keypair.fromSecretKey(base58.decode(PRIVATE_KEY));
-    const walletPublicKey = keypair.publicKey;
-    const tokenMintPublicKey = new PublicKey(QUOTE_MINT);
-
-    // Derive the Associated Token Account (ATA)
-    const tokenAccount = await getAssociatedTokenAddress(tokenMintPublicKey, walletPublicKey);
-
-    // Check if the token account exists
-    const accountInfo = await solanaConnection.getAccountInfo(tokenAccount);
-    if (!accountInfo) {
-      console.warn("Token account does not exist.");
-      return 0; // Return 0 instead of null for better handling
-    }
-
-    // Get the balance
-    const balance = await solanaConnection.getTokenAccountBalance(tokenAccount);
-    console.log(`Token Balance: ${balance.value.uiAmount}`);
-
-    return balance.value.uiAmount ?? 0; // Ensure a valid return value
-  } catch (error) {
-    console.error("Error fetching token balance:", error);
-    return 0; // Return 0 in case of an error to maintain consistency
-  }
-}
 export async function getSolBalance() {
   try {
     const solanaConnection = new Connection(RPC_ENDPOINT, "processed");
